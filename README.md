@@ -57,6 +57,12 @@ $ npm run test:e2e
 # test coverage
 $ npm run test:cov
 ```
+## Create New Modules
+
+We’ll create our modules as resource. Use the command nest g resource country --no-spec We're not creating tests in this article, so --no-spec flag prohibits test files from being generated
+```bash
+$ nest g resource country --no-spec 
+```
 
 ## Support
 
